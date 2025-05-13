@@ -1,0 +1,5 @@
+body::-webkit-scrollbar {
+  scrollbar-width: none;
+  scroll-behavior: smooth;
+  width: none;
+}
