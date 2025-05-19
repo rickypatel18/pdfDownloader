@@ -5,6 +5,7 @@ import {
   PDFViewer,
   Text,
   View,
+  Image,
 } from "@react-pdf/renderer";
 import { Table, TR, TH, TD } from "@ag-media/react-pdf-table";
 import { styles } from "./style";
@@ -27,6 +28,11 @@ const Invoice = () => {
             <Text>NewTerrace No.123</Text>
           </View>
         </View>
+
+        <Image
+          src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+          style={{ height: "100px", width: "100px", margin: "20px 0px" }}
+        />
 
         <View style={styles.spaceY}>
           <Text style={[styles.billTo, styles.textBold]}>Bill to:</Text>
